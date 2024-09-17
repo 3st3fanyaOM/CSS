@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.username, .password, .login{
+    flex: 1 0 5rem;
+}

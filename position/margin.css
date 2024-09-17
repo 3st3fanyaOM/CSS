@@ -1,0 +1,22 @@
+.clase {
+  /*elemento-borde de la pagina*/
+  margin-top: 100px; /*misma distancia para todas las direcciones*/
+  margin-bottom: 50px;
+  margin-right: 50%; /*del ancho del contenedor*/
+  margin-left: inherit; /*heredado del elmnt padre*/
+  margin: auto;
+  margin: 25px 50px 75px 100px; /*top right bottom left*/
+  margin: 25px 50px; /*top-bottom  -> right-left*/
+}
+
+/*Los márgenes superior e inferior de los elementos 
+a veces se contraen en 
+un solo margen que es igual al más grande de los dos márgenes.*/
+h1 {
+  margin: 0 0 50px 0;
+}
+
+h2 {
+  margin: 20px 0 0 0;
+}
+/*entre h1 y h2 quedaría 50 px*/

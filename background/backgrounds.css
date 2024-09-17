@@ -1,0 +1,10 @@
+body {
+  /*p para fondo de párrafo, div...*/
+  background-color: lightblue; /*#ff0000 - rgb(255,0,0)*/
+  opacity: 1; /*1 opaco -0.1 muy transparente*/
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x; /*vertical y*/
+  background-repeat: no-repeat;
+  background-position: right top; /*derecha,arriba*/
+  background-attachment: fixed; /*permanece, scroll se va*/
+}

@@ -1,0 +1,27 @@
+h1 {
+  font-size: calc(1em + 1vw);
+}
+
+/* 1 em = 16px*/
+
+.estilo-x {
+  font-size: calc(1em + 1vw);
+  line-height: 1em;
+  padding: 1em;
+  margin: 1em;
+}
+
+/*Si sustituimos el valor [1] por la proporción deseada 
+    (por ejemplo 0.8em para una medida menor;  
+    o 1.5em para una medida mayor) podremos generar un estilo 
+    responsive de texto absolutamente controlado en versiones responsive.
+
+    Si deseamos escalar la medida según el ancho del dispositivo 
+    de visualización sustituiremos el valor [1] de vw  
+    por un número mayor o menor, por ejemplo 0.5vw o 1.8vw.
+
+    También podremos sustituir el valor vw por [vh], 
+    si la referencia es el alto del dispositivo de visualización.
+    
+    Sustituiremos em por rem en aquellas variables a las que 
+    no deseemos aplicar la proporcionalidad em del font-size.*/

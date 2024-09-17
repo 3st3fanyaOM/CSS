@@ -1,0 +1,38 @@
+ul {
+  list-style-type: circle; /*tipo de marcador*/
+  list-style-image: url(); /*imagen como marcador*/
+  list-style-position: outside; /*marcador dentro/fuera d linea*/
+}
+/*lista sin marcadores*/
+ul {
+  list-style: none; /*sin marcador - menus*/
+  margin: 0;
+  padding: 0;
+}
+/*abreviado*/
+ul {
+  list-style: square inside url("sqpurple.gif");
+}
+/*listas con colores*/
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}

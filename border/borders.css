@@ -1,0 +1,59 @@
+p.dotted {
+  border-style: dotted;
+} /*punteado*/
+p.dashed {
+  border-style: dashed;
+} /*guiones*/
+p.solid {
+  border-style: solid;
+} /*linea*/
+p.double {
+  border-style: double;
+} /*doble linea*/
+p.groove {
+  border-style: groove;
+} /*efecto color*/
+p.ridge {
+  border-style: ridge;
+} /*efecto color*/
+p.inset {
+  border-style: inset;
+} /*efecto color*/
+p.outset {
+  border-style: outset;
+} /*efecto color*/
+p.none {
+  border-style: none;
+} /*sin borde*/
+p.hidden {
+  border-style: hidden;
+} /*oculto*/
+p.mix {
+  border-style: dotted dashed solid double;
+} /*mixto*/
+
+.clase {
+  /*solo borde inferior*/
+  border-bottom: 6px solid red;
+  /*ancho tipo color*/
+  border: 5px solid red;
+  /*top-bottom  rigth-left*/
+  border-style: dotted solid;
+  /*colores*/
+  border-color: #ff0000; /* red */
+  border-color: rgb(255, 0, 0); /* red */
+  border-color: hsl(0, 100%, 50%); /* red */
+  /*diferentes anchos*/
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+  /*punteado 2px*/
+  border-style: dotted;
+  border-width: 2px;
+  /*ancho de linea medio*/
+  border-style: solid;
+  border-width: medium;
+  /*linea ancho 5px*/
+  border-style: solid;
+  border-width: 5px;
+  /*borde redondeado*/
+  border-radius: 5px; /*50% redondo*/
+}

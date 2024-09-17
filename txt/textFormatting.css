@@ -1,0 +1,38 @@
+p {
+  color: blue;
+  background-color: black;
+  text-align: center;
+  text-align-last: right; /*alineación de la últ línea*/
+  direction: rtl; /*escritura del revés*/
+  unicode-bidi: bidi-override; /*escritura del revés*/
+  vertical-align: text-top; /*elmt alineado arriba en el txt*/
+  text-decoration: overline; /*linea arriba*/
+  text-decoration: line-through; /*tachado*/
+  text-decoration: underline; /*subrayado*/
+  text-decoration: overline underline; /*linea arriba y abajo*/
+  text-decoration: underline red double 5px;
+  /*tipo color estilo y ancho de linea*/
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize; /*1º mayuc cada palabra*/
+  text-indent: 50px; /*indenta la 1º linea*/
+  letter-spacing: 5px; /*espacio entre letras*/
+  line-height: 0.8; /*espacio entre lineas*/
+  word-spacing: 10px; /*espacio entre palabras*/
+  white-space: nowrap;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  /*red and blue neon glow*/
+  text-shadow: 0 0 3px #ff0000;
+  /*red neon glow*/
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  /*sombra nube*/
+}
+
+/*It is not recommended to underline text that is not a link, 
+as this often confuses the reader.*/
+
+a {
+  /*no subrayar un enlace*/
+  text-decoration: none;
+}

@@ -1,0 +1,66 @@
+/*serif trazo en los bordes*/
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic; /*cursiva*/
+  font-weight: bold; /*negrita*/
+  font-variant: small-caps; /*letra pequeña*/
+  font-size: 20px; /* x dfto 16px o 1em*/
+  font-size: 2.5em; /* 40px/16=2.5em - va mal en IExplorer*/
+  font-size: 10vw; /*responsive - 1vw = 1% ancho ventana*/
+}
+/* varias propiedades en una declaración */
+p {
+  font: 20px Arial, sans-serif;
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+
+/*fuentes de respaldo
+Arial (sin serifa)
+Verdana (sin serifa)
+Tahoma (sin serifa)
+Trebuchet MS (sin serifa)
+Times New Roman (serifa)
+Georgia (serifa)
+Garamond (serifa)
+Courier New (monoespacio)
+Escritura de pincel MT (cursiva)
+*/
+
+/*Utilizar siempre las etiquetas HTML adecuadas, 
+como <h1> - <h6> para encabezados
+y <p> para párrafos.*/
+
+/*mejor opc combinacion de % y em*/
+
+body {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 0.875em;
+}
+
+/*utilizar fuentes de Google y efectos*/
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple");
+
+body {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+}
+
+/* <body>
+
+<h1 class="font-effect-neon">Neon Effect</h1>
+<h1 class="font-effect-outline">Outline Effect</h1>
+<h1 class="font-effect-emboss">Emboss Effect</h1>
+<h1 class="font-effect-shadow-multiple">Multiple Shadow Effect</h1>
+
+</body> */

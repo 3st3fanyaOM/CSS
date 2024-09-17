@@ -1,0 +1,9 @@
+/*texto con imagen de fondo*/
+
+.image{
+    background-image: url();
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

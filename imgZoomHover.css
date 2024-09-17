@@ -1,0 +1,17 @@
+.container{
+    width: 100px;
+    height: 667px;
+    border: 2px solid #ecf0f1;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagen{
+    object-fit: cover;
+    transition: 1s ease;
+}
+
+.imagen:hover{
+    transform: scale(1.4);
+}

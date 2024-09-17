@@ -1,0 +1,8 @@
+.class {
+  height: 50px; /*altura fija*/
+  width: auto; /*el navegador calcula*/
+  max-height: 200px;
+  max-width: 80%;
+  min-height: max-content;
+  min-width: none;
+}

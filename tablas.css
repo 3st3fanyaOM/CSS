@@ -1,0 +1,41 @@
+table,
+th,
+td {
+  border: 1px solid; /*borde tabla, cabecera y celdas*/
+  border-collapse: collapse; /*borde una linea*/
+  text-align: center; /*contenido celda centrado*/
+  vertical-align: bottom;
+  padding: 15px; /*espacio entre borde y contenido*/
+}
+
+table {
+  width: 100%; /*tabla todo el ancho de pag*/
+  border: 1px solid; /*borde solo a la tabla*/
+}
+
+th {
+  height: 70px; /*cabecera más ancha*/
+}
+
+/*tabla con divisor linea horizontal*/
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+/*efecto hover en filas*/
+tr:hover {
+  background-color: coral;
+}
+
+/* tablas zebra */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*cabecera de un color*/
+th {
+  background-color: #04aa6d;
+  color: white;
+}

@@ -1,0 +1,12 @@
+/* controla qué sucede con el contenido 
+que es demasiado grande para caber en un área */
+
+div {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: visible;/*saca el contenido del elmt*/
+    overflow: hidden;/*no muestra el contenido sobrante*/
+    overflow: scroll;/*agregara scrolls*/
+    overflow: auto;/*agregara los scrolls necesarios*/
+  }

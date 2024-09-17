@@ -1,0 +1,6 @@
+#identificador {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;/*borde fuera de border*/
+    outline-offset: 15px;/*espacio entre border y outline*/
+  }

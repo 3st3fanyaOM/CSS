@@ -1,0 +1,55 @@
+/* se utiliza para cambiar el comportamiento 
+de visualización predeterminado de los elementos HTML */
+span {
+  display: block;
+}
+
+li {
+  display: inline;
+}
+
+/*  inline: Muestra un elemento como un elemento en línea
+    block: Muestra un elemento como un elemento de bloque
+    contents: Hace que el contenedor desaparezca, 
+                haciendo que los elementos secundarios 
+                sean hijos del elemento en el siguiente nivel en el DOM.
+    flex: Muestra un elemento como un contenedor flexible 
+            a nivel de bloque
+    grid: Muestra un elemento como un contenedor de cuadrícula 
+            a nivel de bloque.
+    inline-block: Muestra un elemento como un 
+            contenedor de bloques de nivel en línea. 
+            El elemento en sí tiene el formato de 
+            elemento en línea, pero puede aplicar valores 
+            de alto y ancho.
+    inline-flex: Muestra un elemento como un contenedor 
+            flexible de nivel en línea
+    inline-grid: Muestra un elemento como un contenedor 
+            de cuadrícula de nivel en línea
+    inline-table: El elemento se muestra como una tabla 
+            de nivel en línea
+    list-item: Deje que el elemento se comporte 
+            como un elemento <li>
+    run-in: Muestra un elemento como bloque o en línea, 
+            según el contexto.
+    table: Deje que el elemento se comporte como 
+            un elemento <table>
+    table-caption: Deje que el elemento se comporte como 
+            un elemento <caption>
+    table-column-group: Deje que el elemento se comporte como
+            un elemento <colgroup>
+    table-header-group: Deje que el elemento se comporte como 
+            un elemento <thead>
+    table-footer-group: Deje que el elemento se comporte como 
+            un elemento <tfoot>
+    table-row-group: Deje que el elemento se comporte como 
+            un elemento <tbody>
+    table-cell: Deje que el elemento se comporte como 
+            un elemento <td>
+    columna-tabla: Deje que el elemento se comporte como 
+            un elemento <col>
+    table-row: Deje que el elemento se comporte como 
+            un elemento <tr>
+    none: El elemento se elimina por completo
+    initial: Establece esta propiedad en su valor predeterminado
+    inherit: Hereda esta propiedad de su elemento padre */

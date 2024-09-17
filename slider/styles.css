@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(0);
+  }
+
+  15% {
+    transform: translateX(-100%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+
+  35% {
+    transform: translateX(-200%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+
+  55% {
+    transform: translateX(-300%);
+  }
+  70% {
+    transform: translateX(-300%);
+  }
+
+  75% {
+    transform: translateX(-400%);
+  }
+  90% {
+    transform: translateX(-400%);
+  }
+
+  95% {
+    transform: translateX(-500%);
+  }
+  100% {
+    transform: translateX(-500%);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "New Amsterdam", sans-serif;
+}
+
+h1 {
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.slider {
+  position: relative;
+}
+
+.slides {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  width: 50vw;
+  flex-shrink: 0;
+  animation-name: slide;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.slides:hover .slide {
+  animation-play-state: paused;
+}
+
+.slide img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.slide a {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.slide:target {
+  animation-name: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+}
+
+@media only screen and (min-width: 1200px) {
+  .slide {
+    width: 1200px;
+  }
+
+  .caption {
+    font-size: 96px;
+    bottom: 96px;
+    right: 50px;
+  }
+}

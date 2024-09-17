@@ -1,0 +1,35 @@
+/* se utiliza para posicionar y formatear contenido, 
+por ejemplo, dejar que una imagen flote a la izquierda 
+del texto en un contenedor */
+
+/*  left- El elemento flota a la izquierda de su contenedor.
+    right- El elemento flota a la derecha de su contenedor.
+    none- El elemento no flota 
+        (se mostrará solo donde aparece en el texto). 
+        Esta es la configuración predeterminada.
+    inherit- El elemento hereda el valor flotante 
+        de su padre. */
+
+img {
+  float: right; /*la img flota a la dxa del txt*/
+  float: none; /*la img esta en linea con el txt*/
+}
+
+/* divs consecutivos en linea */
+
+.contenedor {
+  float: left;
+  padding: 15px;
+}
+
+.div1 {
+  background: red;
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: green;
+}
