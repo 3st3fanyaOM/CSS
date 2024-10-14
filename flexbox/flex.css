@@ -1,0 +1,13 @@
+.container{
+display: flex;
+flex-direction: column;/*x dfto row*/
+flex-wrap: nowrap;/*distribuir responsive*/
+}
+
+.item{
+justify-content: end;/*horizontal*/
+align-items: stretch;/*vertical*/
+order: -1;/*-1 es el primero*/
+align-self: flex-end;
+align-content: center;/*varias líneas*/
+}
