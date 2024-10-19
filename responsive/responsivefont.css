@@ -1,0 +1,24 @@
+/* media querie */
+h1 {
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem; /* más pequeño en pantallas pequeñas */
+  }
+}
+
+/* porcentaje con ventana */
+h1 {
+  font-size: 5vw; /* el tamaño de la fuente será el 5% del ancho de la ventana */
+}
+
+/* clamp */
+h1 {
+  font-size: clamp(
+    1.5rem,
+    5vw,
+    2.5rem
+  ); /* mínimo 1.5rem, máximo 2.5rem, y entre ambos un ajuste de 5vw */
+}

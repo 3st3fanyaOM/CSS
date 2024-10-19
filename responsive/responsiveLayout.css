@@ -15,3 +15,13 @@
 @media only screen and (min-width: 900px) {
   /*styles for larger than 900 px*/
 }
+
+/*Responsive*/
+@media (max-width: 375px) {
+  body :first-child {
+    display: none;
+  }
+  hr:first-of-type {
+    display: none;
+  }
+}
