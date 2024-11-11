@@ -22,3 +22,10 @@ h1 {
     2.5rem
   ); /* mínimo 1.5rem, máximo 2.5rem, y entre ambos un ajuste de 5vw */
 }
+
+.estilo-x {
+  font-size: calc(1em + 1vw);
+  line-height: 1em;
+  padding: 1em;
+  margin: 1em;
+}
