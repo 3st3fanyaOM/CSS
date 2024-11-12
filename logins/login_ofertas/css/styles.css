@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 40%;
+  flex-wrap: wrap;
 }
 
 .blanco {
@@ -98,6 +99,12 @@ a {
   font-size: 1em;
 }
 
+.btn1:hover {
+  border: 1.5px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .divisor {
   width: 90%;
   display: flex;
@@ -111,8 +118,8 @@ a {
 }
 
 .iconos {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 .imagenes {
@@ -129,7 +136,7 @@ a {
 
 .btn2 {
   margin-top: 1em;
-  border: 1px solid #000000;
+  border: 1.5px solid #000000;
   background-color: #ffffff;
   border-radius: 30px;
   height: 50px;
@@ -140,7 +147,70 @@ a {
   font-size: 1em;
 }
 
+.btn2:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+}
+
 .azul {
   color: #0000ff;
   font-weight: bold;
+}
+
+.btnes {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnes2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.botones_final {
+  gap: 2em;
+}
+
+/*responsive*/
+
+@media (max-width: 500px) {
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+
+  h1 {
+    margin: 0;
+  }
+  .item:first-child {
+    order: -1;
+    width: 100%;
+  }
+
+  .recordar {
+    flex-direction: column;
+  }
+  .btn1 {
+    width: 50%;
+  }
+  .item:last-child {
+    order: 3;
+    width: 100%;
+  }
+  .blanco {
+    width: 100%;
+    padding-right: 2.5em;
+  }
+
+  .btnes {
+    order: 1;
+  }
+
+  .divisor {
+    width: 100%;
+  }
 }
